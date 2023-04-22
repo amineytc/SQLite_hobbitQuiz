@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indir"
+    tools:context=".TextFragment">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="364dp"
+        android:layout_height="207dp"
+        android:layout_marginTop="16dp"
+        android:text="In the second age, the Dark Lord Sauron persuaded the elven blacksmiths and people of Eregion to forge the rings of power. Then Sauron secretly returned to Orodruin and forged the One Ring in his flame."
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="364dp"
+        android:layout_height="410dp"
+        android:layout_marginBottom="16dp"
+        android:text="The One Ring, which would control the other rings and dominate their bearers, was made as the main ring. Sauron was the strongest when he wore the ring; however, if he didn't have it, it also caused his power to weaken considerably. Although it seemed to be made of simple gold, the ring was nearly undamaged and could only be destroyed in the flame of Orodruin where it was originally forged."
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
